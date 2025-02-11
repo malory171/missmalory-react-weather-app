@@ -1,0 +1,16 @@
+.Weather {
+  background-color: #fff;
+  padding: 15px 30px 30px;
+}
+.Weather header {
+  border-bottom: 1px solid #ededed;
+  padding: 0 0 13px;
+}
+.Weather .btn-custom {
+  background-color: #82b2b7cc;
+  color: #fff;
+  cursor: pointer;
+}
+.Weather footer {
+  border-top: 1px solid #ededed;
+}
