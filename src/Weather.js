@@ -14,10 +14,14 @@ export default function Weather() {
       </header>
       <form>
         <div className="row">
-          <div className="col-9">
-            <input type="search" placeholder="Enter a city..." />
+          <div className="col-7">
+            <input
+              className="btn btn-outline-secondary input-custom w-100"
+              type="search"
+              placeholder="Enter a city..."
+            />
           </div>
-          <div className="col-3">
+          <div className="col-5">
             <input
               type="submit"
               value="Search"
@@ -27,17 +31,20 @@ export default function Weather() {
         </div>
       </form>
       <div className="row">
-        <div className="col-9">
+        <div className="col-7">
           <h1>London</h1>
           <ul>
             <li>Wednesday 11:54</li>
-            <li>Cloudy</li>
-            <li>Precipitation: 10%</li>
-            <li>Humidity: 90%</li>
-            <li>Wind: 20 km/h</li>
+            <li>
+              Cloudy, Precipitation: <span className="accent-color">10%</span>,
+            </li>
+            <li>
+              Humidity: <span className="accent-color">90%</span>, Wind:{" "}
+              <span className="accent-color">20 km/h</span>
+            </li>
           </ul>
         </div>
-        <div className="col-3">
+        <div className="col-5">
           <img
             src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png"
             alt="Cloudy"
@@ -54,8 +61,8 @@ export default function Weather() {
           rel="noreferrer"
         >
           Malory Mézierre
-        </a>{" "}
-        and{" "}
+        </a>
+        🔆and{" "}
         <a
           href="https://github.com/malory171/missmalory-react-weather-app"
           target="_blank"
