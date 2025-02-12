@@ -22,13 +22,6 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
-        <header>
-          <img
-            alt="logo"
-            width="150"
-            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/139/422/original/Miss_Malory's_Weather_App.png?1723737636"
-          />
-        </header>
         <form>
           <div className="row">
             <div className="col-7">
@@ -78,25 +71,6 @@ export default function Weather(props) {
             <span className="unit">°C</span>
           </div>
         </div>
-        <footer>
-          Coded by{" "}
-          <a
-            href="https://www.shecodes.io/graduates/135692-malory-mezierre"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Malory Mézierre
-          </a>{" "}
-          🔆 and{" "}
-          <a
-            href="https://github.com/malory171/missmalory-react-weather-app"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            open-sourced on GitHub
-          </a>
-        </footer>
       </div>
     );
   } else {
