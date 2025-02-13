@@ -77,7 +77,6 @@ export default function Weather(props) {
       </div>
     );
   } else {
-    let city = "London";
     let apiKey = "a3ab2befb0aeo33880eb42d02209d3et";
     let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${props.defaultCity}&key=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
