@@ -1,0 +1,21 @@
+.WeatherInfo .accent-color {
+  color: rgba(130, 178, 183, 0.6);
+}
+.WeatherInfo .weather-icon {
+  margin-left: 5px;
+  position: relative;
+  top: 1px;
+}
+.WeatherInfo .temperature {
+  font-size: 65px;
+  font-weight: 700;
+  margin-left: 7px;
+  position: relative;
+  top: 15px;
+}
+.WeatherInfo .unit {
+  font-size: 20px;
+  margin-left: 2px;
+  position: relative;
+  top: 0px;
+}

@@ -1,3 +1,6 @@
+.Weather {
+  margin-bottom: 20px;
+}
 .Weather form {
   padding: 30px 0;
 }
@@ -7,6 +10,10 @@
   padding: 15px 20px;
   text-align: left;
 }
+.Weather input[type="search"] {
+  color: black;
+}
+
 .Weather .btn-custom {
   background-color: #82b2b7cc;
   color: #fff;
@@ -22,41 +29,4 @@
   line-height: 24px;
   list-style: none;
   padding-left: 0;
-}
-.Weather .accent-color {
-  color: rgba(130, 178, 183, 0.6);
-}
-.Weather .weather-icon {
-  margin-left: 20px;
-  position: relative;
-  top: 16px;
-}
-.Weather .temperature {
-  font-size: 65px;
-  font-weight: 700;
-  margin-left: 20px;
-  position: relative;
-  top: 30px;
-}
-.Weather .unit {
-  font-size: 20px;
-  margin-left: 2px;
-  position: relative;
-  top: 5px;
-}
-
-@media (max-width: 502px) {
-  .Weather .weather-icon {
-    position: relative;
-    top: 10px;
-  }
-  .Weather .temperature {
-    margin-left: 30px;
-    position: relative;
-    top: 5px;
-  }
-  .Weather .unit {
-    position: relative;
-    top: -20px;
-  }
 }
