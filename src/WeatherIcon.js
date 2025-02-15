@@ -16,8 +16,6 @@ import WiNightAltSnowWind from "@meronex/icons/wi/WiNightAltSnowWind";
 import WiDayFog from "@meronex/icons/wi/WiDayFog";
 import WiNightFog from "@meronex/icons/wi/WiNightFog";
 
-import "./WeatherIcon.css";
-
 export default function WeatherIcon(props) {
   console.log(props.code);
 
