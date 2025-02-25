@@ -43,7 +43,7 @@ export default function WeatherIcon(props) {
   const IconComponent = codeMapping[props.code];
   return (
     <div className="WeatherIcon">
-      <IconComponent size={80} />
+      <IconComponent size={props.size} />
     </div>
   );
 }

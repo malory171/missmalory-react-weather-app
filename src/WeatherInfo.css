@@ -1,3 +1,14 @@
+.WeatherInfo h1 {
+  font-size: 44px;
+  font-weight: 900;
+}
+.WeatherInfo ul {
+  color: #0009;
+  font-weight: 400;
+  line-height: 24px;
+  list-style: none;
+  padding-left: 0;
+}
 .WeatherInfo .accent-color {
   color: rgba(130, 178, 183, 0.6);
 }
@@ -15,5 +26,26 @@
   font-size: 20px;
   margin-left: 2px;
   position: relative;
-  top: -26px;
+  top: -36px;
+}
+@media (max-width: 576px) {
+  .WeatherInfo h1 {
+    font-size: 33px;
+  }
+  .WeatherInfo .weather-icon {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .WeatherInfo .temperature {
+    font-size: 43px;
+    margin-left: 0px;
+    position: relative;
+    top: 5px;
+  }
+  .WeatherInfo .unit {
+    font-size: 17px;
+    margin-left: 2px;
+    position: relative;
+    top: -11px;
+  }
 }

@@ -19,14 +19,3 @@
   color: #fff;
   padding: 15px 20px;
 }
-.Weather h1 {
-  font-size: 44px;
-  font-weight: 900;
-}
-.Weather ul {
-  color: #0009;
-  font-weight: 400;
-  line-height: 24px;
-  list-style: none;
-  padding-left: 0;
-}
