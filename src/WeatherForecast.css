@@ -5,14 +5,3 @@
 .WeatherForecast .WeatherForecast-day {
   color: #0009;
 }
-.WeatherForecast .WeatherForecast-temperatures {
-  margin-top: 12px;
-}
-.WeatherForecast .WeatherForecast-temperature-max {
-  font-weight: 600;
-  color: rgba(130, 178, 183, 0.6);
-}
-.WeatherForecast .WeatherForecast-temperature-min {
-  margin-left: 5px;
-  color: rgba(130, 178, 183, 0.6);
-}

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import "./WeatherTemperature.css";
 
-export default function WeatherTemoerature(props) {
+export default function WeatherTemperature(props) {
   const [unit, setUnit] = useState("celsius");
 
   function showCelsius(event) {
