@@ -1,8 +1,12 @@
 .WeatherForecast {
   text-align: center;
+  margin-top: 10px;
 }
 .WeatherForecast .WeatherForecast-day {
   color: #0009;
+}
+.WeatherForecast .WeatherForecast-temperatures {
+  margin-top: 12px;
 }
 .WeatherForecast .WeatherForecast-temperature-max {
   font-weight: 600;
