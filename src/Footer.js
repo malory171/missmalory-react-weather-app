@@ -13,15 +13,22 @@ export default function Footer() {
           rel="noreferrer"
         >
           Malory Mézierre
-        </a>{" "}
-        🔆 and{" "}
+        </a>
+        🔆
         <a
           href="https://github.com/malory171/missmalory-react-weather-app"
           target="_blank"
           rel="noreferrer"
         >
-          {" "}
           open-sourced on GitHub
+        </a>{" "}
+        and{" "}
+        <a
+          href="https://missmalory-react-weather-app.netlify.app/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          hosted on Netlify
         </a>
       </footer>
     </div>

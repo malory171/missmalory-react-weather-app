@@ -9,6 +9,9 @@
   list-style: none;
   padding-left: 0;
 }
+.WeatherInfo .accent-color {
+  color: rgba(130, 178, 183, 0.6);
+}
 .WeatherInfo .weather-icon {
   position: relative;
   left: 30px;
