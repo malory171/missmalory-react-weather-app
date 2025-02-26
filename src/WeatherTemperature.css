@@ -1,4 +1,32 @@
-.WeatherTemperature a {
-  color: rgba(130, 178, 183, 0.6);
-  text-decoration: none;
+.WeatherTemperature .temperature {
+  font-size: 65px;
+  font-weight: 700;
+  margin-left: 20px;
+  position: relative;
+  top: -10px;
+}
+.WeatherTemperature .unit {
+  font-size: 20px;
+  margin-left: 2px;
+  position: relative;
+  top: -36px;
+}
+
+@media (max-width: 576px) {
+  .WeatherTemperature .weather-icon {
+    margin-left: 5px;
+    margin-top: 5px;
+  }
+  .WeatherTemperature .temperature {
+    font-size: 43px;
+    margin-left: 0px;
+    position: relative;
+    top: 5px;
+  }
+  .WeatherTemperature .unit {
+    font-size: 17px;
+    margin-left: 2px;
+    position: relative;
+    top: -11px;
+  }
 }
